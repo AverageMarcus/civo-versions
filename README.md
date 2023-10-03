@@ -4,11 +4,15 @@ A basic api to return a list of available Kubernetes versions for Civo.
 
 ## Features
 
-## Install
+Exposes the following endpoints:
 
-```sh
-
-```
+* `/` - Lists all active releases
+* `/k3s/` - Lists all active k3s releases
+* `/k3s/stable` - Lists all stable k3s releases
+* `/k3s/development` - Lists all development k3s releases
+* `/talos/` - Lists all Talos releases
+* `/talos/stable` - Lists all stable Talos releases
+* `/talos/development` - Lists all development Talos releases
 
 ## Building from source
 
@@ -25,6 +29,8 @@ make build
 ```
 
 ## Resources
+
+* [civogo](https://github.com/civo/civogo)
 
 ## Contributing
 
