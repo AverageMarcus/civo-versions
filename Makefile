@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := default
 
-IMAGE ?= rg.fr-par.scw.cloud/averagemarcus/blog:latest
+IMAGE ?= rg.fr-par.scw.cloud/averagemarcus/civo-versions:latest
 
 .PHONY: test # Run all tests, linting and format checks
 test: lint check-format run-tests
